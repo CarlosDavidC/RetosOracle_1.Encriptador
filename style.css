@@ -1,0 +1,92 @@
+header{
+    font-weight: 400px;
+    font-size: 32px;
+    line-height: 150%
+}
+
+body {
+    background-image: url(imagenes/alura.jpg);
+    background-size: 100%;
+}
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto {
+    margin-top: 90px;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 90px;
+    background-image: url("imagenes/muneco.png");
+    background-repeat: repeat;
+    background-position: 18px;
+    background-size: 100%;
+}
+
+.copiar{
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #0A3871;
+    margin-left: 30px;
+    color: rgb(151, 175, 254); 
+    border: 2px solid #ffffff;
+}
+
+.copiar:hover{
+    background-color: rgb(225, 255, 0); 
+    color: rgb(0, 0, 0);
+}
+
+.botones {
+    background-color: #0A3871;
+    border-top-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border: 2px solid #E8E8E8;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.encriptar {
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #0A3871; 
+    color: rgb(151, 175, 254); 
+    border: 2px solid #ffffff;
+}
+
+.encriptar:hover {
+    background-color: #9f0707;
+    color: white;
+}
+
+.desencriptar{
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #0A3871;
+    margin-left: 30px;
+    color: rgb(151, 175, 254); 
+    border: 2px solid #ffffff;
+}
+
+.desencriptar:hover{
+    background-color: rgb(36, 118, 6); 
+    color: rgb(255, 255, 255);
+}
+
+.informacion {
+    font-size: 15px;
+}
+
